@@ -1,0 +1,81 @@
+body{
+    display: grid;
+    place-items: center;
+
+    background: linear-gradient(318deg, #0078cc, #cc9800);
+    background-size: 400% 400%;
+
+    -webkit-animation: SunnyVibe 30s ease infinite;
+    -moz-animation: SunnyVibe 30s ease infinite;
+    animation: SunnyVibe 30s ease infinite;
+}
+
+@-webkit-keyframes SunnyVibe {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes SunnyVibe {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes SunnyVibe {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#name{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 3rem;
+    color: #FFFFFF;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.descriptors{
+    font-family: 'Overpass', sans-serif;
+    color: #FFFFFF;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+#twitter-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #cc9800;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    transition: 0.3s;
+}
+
+#twitter-link:hover{
+    transition: 0.3s;
+    box-shadow: 2px 2px 0px rgba(0,120,204,1);
+}
+
+#twitter-icon{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#twitter-icon:hover{
+    transition: 0.3s;
+    color: rgba(29,161,242,1);
+}
+
+#github-icon{
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#github-icon:hover{
+    transition: 0.3s;
+    color: rgba(0,0,0,1);
+}
