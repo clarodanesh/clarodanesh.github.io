@@ -57,7 +57,7 @@ body{
 
 #twitter-link:hover{
     transition: 0.3s;
-    box-shadow: 2px 2px 0px #FDB515;
+    box-shadow: 0px 0px 0px 2px #FDB515;
 }
 
 #twitter-icon{
