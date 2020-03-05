@@ -76,6 +76,16 @@ body{
     cursor: pointer;
 }
 
+#linkedin-icon{
+    color: #2867B2;
+    cursor: pointer;
+}
+
+#youtube-icon{
+    color: #FF0000;
+    cursor: pointer;
+}
+
 .social-btn{
     color: #000000;
     font-family: 'Overpass', sans-serif;
@@ -118,4 +128,24 @@ body{
 #stack-social-btn:hover{
     border: 2px solid #FF9900;
     box-shadow: 2px 2px #FF9900;
+}
+
+#linkedin-social-btn{
+    border: 2px solid #2867B2;
+    box-shadow: 4px 4px #2867B2;
+}
+
+#linkedin-social-btn:hover{
+    border: 2px solid #2867B2;
+    box-shadow: 2px 2px #2867B2;
+}
+
+#youtube-social-btn{
+    border: 2px solid #FF0000;
+    box-shadow: 4px 4px #FF0000;
+}
+
+#youtube-social-btn:hover{
+    border: 2px solid #FF0000;
+    box-shadow: 2px 2px #FF0000;
 }
