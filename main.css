@@ -40,6 +40,10 @@ body{
     user-select: none; /* Standard */
 }
 
+#icon-holder-banner{
+    display: flex;
+}
+
 .descriptors{
     font-family: 'Overpass', sans-serif;
     color: #FFFFFF;
@@ -98,6 +102,8 @@ body{
     border-radius: 5px;
     padding: 7px 5px 5px 5px;
     margin-left: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .social-btn:hover{
