@@ -54,19 +54,73 @@ body{
     text-align: center;
 }
 
-#twitter-link{
+img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 15px;
+    border: 3px dashed #2c4761; 
+}
+
+#battlejs-link{
     text-decoration: none;
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #003262;
+    background-color: #282c34;
     padding-top: 2px;
     padding-bottom: 0px;
     transition: 0.3s;
 }
 
-#twitter-link:hover{
+#battlejs-link:hover{
     transition: 0.3s;
-    box-shadow: 0px 0px 0px 2px #FDB515;
+    box-shadow: 0px 0px 0px 2px #37ff00;
+}
+
+#texthelp-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #e12362;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    transition: 0.3s;
+}
+
+#texthelp-link:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px 2px #FFFFFF;
+}
+
+#claro-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #2c4761;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    transition: 0.3s;
+}
+
+#claro-link:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px 2px #FFFFFF;
+}
+
+#azione-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #0178d4;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    transition: 0.3s;
+}
+
+#azione-link:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px 2px #FFFFFF;
 }
 
 #twitter-icon{
