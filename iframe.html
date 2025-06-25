@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Iframe Test Scenarios</title>
+  <style>
+    body { font-family: sans-serif; }
+    .scenario { margin-bottom: 2em; }
+    iframe, .fake-iframe { border: 1px solid #888; width: 400px; height: 120px; }
+    .fake-iframe { display: flex; align-items: center; justify-content: center; background: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <h1>Iframe Test Scenarios</h1>
+  <div class="scenario">
+    <h2>1. Simple iframe</h2>
+    <iframe srcdoc="<p>Simple iframe content</p>"></iframe>
+  </div>
+  <div class="scenario">
+    <h2>2. Iframe inside a container</h2>
+    <div id="container">
+      <iframe srcdoc="<p>Iframe inside #container</p>"></iframe>
+    </div>
+  </div>
+  <div class="scenario">
+    <h2>3. Nested iframes</h2>
+    <iframe srcdoc='
+      <iframe srcdoc="<p>Nested iframe</p>"></iframe>
+    '></iframe>
+  </div>
+  <div class="scenario">
+    <h2>4. Multiple iframes</h2>
+    <iframe srcdoc="<p>First iframe</p>"></iframe>
+    <iframe srcdoc="<p>Second iframe</p>"></iframe>
+  </div>
+  <div class="scenario">
+    <h2>5. External iframe</h2>
+    <iframe src="https://example.com"></iframe>
+  </div>
+</body>
+</html>
